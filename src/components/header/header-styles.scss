@@ -1,0 +1,28 @@
+.header {
+    height: 70px;
+    width: 100%;
+    // the combinatoin of display:flex and justify-content: space-between; forces the children (logocontainer and options)   inside  of  the parent, "header" will be spread as far  as possible minus the space they occupy themselves. 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  
