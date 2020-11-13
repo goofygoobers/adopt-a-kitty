@@ -6,13 +6,16 @@ import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
+import { fontWeight } from 'styled-system';
 
 const useStyles = makeStyles({
     title: {
-        fontSize: "20px"
+        fontSize: "20px",
+        fontWeight: "bold"
     }, 
-    center: {
-        margin: "auto"
+    adoptButton: {
+        margin: "auto",
+        background: "#EEEEEE"
     },
     media: {
         height: "250px"
@@ -40,7 +43,7 @@ const CatCard = (props) => {
                 {description}
             </Typography>
             <CardActions>
-                <Button className={classes.center}>ADOPT ME!</Button>
+                <Button className={classes.adoptButton}>ADOPT ME!</Button>
             </CardActions>
         </Card>
     )

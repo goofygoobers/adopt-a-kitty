@@ -5,7 +5,8 @@ import {makeStyles} from '@material-ui/styles';
 
 const useStyles = makeStyles(() => ({
     buttonStyles: {
-        flex: 1
+        flex: 1,
+        fontSize: "20px" 
     },
     iconSpacing: {
         paddingRight: "25px",
@@ -13,7 +14,8 @@ const useStyles = makeStyles(() => ({
     },
     title: {
         margin: "auto",
-        fontSize: "2em"
+        fontSize: "2em",
+        fontFamily: "Lobster"
     },
     background: {
         background: '#9CC0E7'
