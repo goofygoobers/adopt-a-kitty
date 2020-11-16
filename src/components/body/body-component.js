@@ -1,17 +1,18 @@
 import React from 'react'; 
 import CatCard from "../card/card-component";
 import { Grid } from '@material-ui/core';
-import logo from '../../logo.svg'
 import PusheenPoke from '../../images/pusheen-boba.png'
 import PusheenGamer from '../../images/pusheen-gamer.png'
 import PusheenCheeto from '../../images/pusheen-cheeto.png'
 import PusheenFlying from '../../images/pusheen-flying.png'
 import PusheenCoffee from '../../images/pusheen-coffee.jpg'
 import PusheenBook from '../../images/pusheen-bookworm.jpg'
+import DonateCard from '../donate/donate-card-componenet';
 
 function Body() {
     return(
         <Grid container spacing={10}>
+            
             <Grid item xs={12} sm={4}>
                 <CatCard title="Jacq" description="Only drinks Boba" imgSrc={PusheenPoke}/>
             </Grid>

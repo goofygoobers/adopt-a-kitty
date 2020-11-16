@@ -6,7 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import { fontWeight } from 'styled-system';
 
 const useStyles = makeStyles({
     title: {

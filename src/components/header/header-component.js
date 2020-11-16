@@ -6,19 +6,23 @@ import {makeStyles} from '@material-ui/styles';
 const useStyles = makeStyles(() => ({
     buttonStyles: {
         flex: 1,
-        fontSize: "20px" 
+        fontSize: "20px", 
+        fontFamily: "Quicksand",
+        color: "#12306b",
+        fontWeight: "bolder"
     },
     iconSpacing: {
-        paddingRight: "25px",
-        fontSize: "2em"
+        paddingRight: "5px",
+        fontSize: "2em",
+        color: "yellow"
     },
     title: {
         margin: "auto",
         fontSize: "2em",
-        fontFamily: "Lobster"
+        fontFamily: "Quicksand"
     },
     background: {
-        background: '#9CC0E7'
+        background: '#41b4e5'
     }
 
 }));
@@ -33,19 +37,19 @@ function Header() {
                 <IconButton className={classes.title} href='home' size="medium" edge="start" color="inherit" aria-label="menu">
                     <PetsIcon className={classes.iconSpacing}/>
                     <Typography variant="h5" className={classes.title}>
-                        Adopt a Kitty
+                        Avanzino
                     </Typography>
                 </IconButton>
                 </Toolbar>
                 <Toolbar>
-                <Button className={classes.buttonStyles} href="about" color="inherit">
-                    About Us
+                <Button className={classes.buttonStyles} href="about">
+                    Adopt
                 </Button>
-                <Button className={classes.buttonStyles} href="donate" color="inherit">
+                <Button className={classes.buttonStyles} href="donate">
+                    Volunteer
+                </Button>
+                <Button className={classes.buttonStyles} href="login">
                     Donate
-                </Button>
-                <Button className={classes.buttonStyles} href="login" color="inherit">
-                    Login
                 </Button>
                 </Toolbar>
  
