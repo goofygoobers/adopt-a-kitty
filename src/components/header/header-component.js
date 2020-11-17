@@ -14,15 +14,16 @@ const useStyles = makeStyles(() => ({
     iconSpacing: {
         paddingRight: "5px",
         fontSize: "2em",
-        color: "yellow"
+        color: "#F5564E"
     },
     title: {
         margin: "auto",
         fontSize: "2em",
-        fontFamily: "Quicksand"
+        fontFamily: "Quicksand",
+        color: "#1A3263"
     },
     background: {
-        background: '#41b4e5'
+        background: '#EFEDE7'
     }
 
 }));

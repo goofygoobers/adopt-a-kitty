@@ -7,7 +7,6 @@ import PusheenCheeto from '../../images/pusheen-cheeto.png'
 import PusheenFlying from '../../images/pusheen-flying.png'
 import PusheenCoffee from '../../images/pusheen-coffee.jpg'
 import PusheenBook from '../../images/pusheen-bookworm.jpg'
-import DonateCard from '../donate/donate-card-componenet';
 
 function Body() {
     return(
