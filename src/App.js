@@ -1,25 +1,24 @@
-
 import './App.css';
-import Header from './components/header/header-component';
-import { Grid } from '@material-ui/core';
-// import Body from './components/body/body-component';
-import StoryCard from './components/story/story-component';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import BackgroundStory from './components/pages/backgroundStoryPage/backgroundStory-component';
+import HomePage from './components/pages/homePage/homePage-component';
+import DonatePage from './components/pages/donatePage/donatePage-component';
+import VolunteerPage from './components/pages/volunteerPage/volunteerPage-component';
+import AdoptPage from './components/pages/adoptPage/adoptPage-component';
 
 function App() {
   return (
-    <Grid container direction="column" className="backgroundTest">
-        <Grid item> 
-          <Header /> 
-        </Grid>
-        <Grid item container>
-          <StoryCard />
-          <Grid item xs={0} sm={2} />
-            <Grid item xs={12} sm={8} >              
-              {/* <Body />  */}
-            </Grid>
-          <Grid item xs={0} sm={2} />
-        </Grid>
-      </Grid>
+
+    <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={HomePage}></Route>
+          <Route path='/story' component={BackgroundStory}></Route>
+          <Route path='/donate' component={DonatePage}></Route>
+          <Route path='/volunteer' component={VolunteerPage}></Route>
+          <Route path='/adopt' component={AdoptPage}></Route>
+        </Switch> 
+    </BrowserRouter>
+
   );
 }
 

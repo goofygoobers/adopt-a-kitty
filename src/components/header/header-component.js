@@ -35,7 +35,7 @@ function Header() {
     return(
         <AppBar position="static" className={classes.background}>
             <Toolbar>
-                <IconButton className={classes.title} href='home' size="medium" edge="start" color="inherit" aria-label="menu">
+                <IconButton className={classes.title} href='/' size="medium" edge="start" color="inherit" aria-label="menu">
                     <PetsIcon className={classes.iconSpacing}/>
                     <Typography variant="h5" className={classes.title}>
                         Avanzino
@@ -43,18 +43,16 @@ function Header() {
                 </IconButton>
                 </Toolbar>
                 <Toolbar>
-                <Button className={classes.buttonStyles} href="about">
+                <Button className={classes.buttonStyles} href="adopt">
                     Adopt
                 </Button>
-                <Button className={classes.buttonStyles} href="donate">
+                <Button className={classes.buttonStyles} href="volunteer">
                     Volunteer
                 </Button>
-                <Button className={classes.buttonStyles} href="login">
+                <Button className={classes.buttonStyles} href="donate">
                     Donate
                 </Button>
                 </Toolbar>
- 
-            
         </AppBar>
     )
 }

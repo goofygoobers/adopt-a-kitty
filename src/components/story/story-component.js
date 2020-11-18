@@ -3,7 +3,7 @@ import HomeCat from '../../images/calm-cat.jpg';
 // Why can't be export my custom button component and add material ui styling to it? 
 // import Button from '../button/button-component'; 
 import Button from '@material-ui/core/Button';
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 
 const useStyles = makeStyles({
@@ -28,7 +28,7 @@ const useStyles = makeStyles({
     storyButton: {
         position: "center",
         marginLeft: "820px",
-        marginTop: "680px",
+        marginTop: "730px",
         fontSize: "200%",
         fontFamily: "Quicksand",
         backgroundColor: "#E8E2DB",
@@ -46,7 +46,7 @@ function StoryCard() {
                     Hi, my name is Nuni 
                 </h1>
 
-                <Button variant="contained" className={classes.storyButton}>MY STORY</Button>
+                <Button variant="contained" className={classes.storyButton} href="story">MY STORY</Button>
         </div>
     )
 }
