@@ -18,6 +18,9 @@ const useStyles = makeStyles({
     },
     media: {
         height: "250px"
+    },
+    background: {
+        backgroundColor: "#EFEDE7"
     }
 })
 
@@ -27,7 +30,7 @@ const CatCard = (props) => {
     const { title, description, imgSrc } = props;  
 
     return(
-        <Card>
+        <Card className={classes.background}>
             <CardActionArea>
                 <CardMedia 
                     className={classes.media}

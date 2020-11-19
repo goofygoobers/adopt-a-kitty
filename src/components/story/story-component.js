@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         backgroundRepeat: "no-repeat",
     },
     storyText: {
-        color: "#E8E2DB",
+        color: "#fcfbfa",
         fontFamily: "Quicksand",
         fontSize: "500%",
         position: "absolute",
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
         marginTop: "730px",
         fontSize: "200%",
         fontFamily: "Quicksand",
-        backgroundColor: "#E8E2DB",
+        backgroundColor: "#fcfbfa",
         color: "#1A3263"
     }
 })
