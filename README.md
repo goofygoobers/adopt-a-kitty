@@ -5,16 +5,12 @@ This project was based on a random prompt that was decided by the team. And that
 Adopt a Kitty also happens to be my first application built with React, Css, Material-UI and Google Maps Api.
 
 
-## Project Status
-On-going
-
-#### Example:
-
+## Project Status: On-going
 This project is currently in development. Currently building out a feature to allow users to locate/mark stray cats they find on the streets.
 
 ## Project Screen Shots
 
-![](/src/images/screneeshot-homepage.png)
+![](/src/images/screenshot-homepage.png)
 ![](/src/images/screenshot-google.png)
 
 ## Installation and Setup Instructions
