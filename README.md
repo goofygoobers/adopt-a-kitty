@@ -16,9 +16,7 @@ This project is currently in development. Currently building out a feature to al
 
 #### Example:   
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![](/src/images/screenshot-google.png)
 
 ## Installation and Setup Instructions
 
